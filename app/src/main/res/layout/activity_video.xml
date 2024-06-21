@@ -2,20 +2,14 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
-    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ActivityPhoto">
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="match_parent"
-        android:layout_height="406dp"
-        tools:srcCompat="@tools:sample/avatars" />
+    android:orientation="vertical"
+    tools:context=".ActivityVideo">
 
     <Button
-        android:id="@+id/btntakefoto"
+        android:id="@+id/buttonGrabar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/TomarFoto" />
+        android:text="Grabar" />
 </LinearLayout>
